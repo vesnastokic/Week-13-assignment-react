@@ -1,0 +1,35 @@
+/* Style of form container */
+.form-container {
+  margin-top: 20px;
+}
+
+/* Style of input fields */
+.form-container input[type="text"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style of rating input field */
+.form-container input[type="number"] {
+  width: 60px;
+}
+
+/* Style of submit button */
+.form-container button[type="submit"] {
+  background-color: #316fe3;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style of submit button on hover */
+.form-container button[type="submit"]:hover {
+  background-color: #316fe3;
+}
